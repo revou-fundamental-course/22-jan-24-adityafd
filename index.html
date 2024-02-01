@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rassa E-Groceries</title>
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <a href="#" class="logo"><img src="img/logo.jpg" alt=""></a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <a href="#home">beranda</a>
+        <a href="#product">produk</a>
+        <a href="#service">layanan</a>
+        <a href="#contact">kontak</a>
+    </nav>
+</header>
+
+<!-- Home -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Rasakanlah Nikmatnya!</h3>
+        <p>Batagor mie kuah instan dengan harga yang terjangkau</p>
+        <a href="#product"><button class="btn">Produk Kami</button></a>
+    </div>
+</section>
+
+<!-- Product -->
+<section class="product" id="product">
+    <h1 class="heading">Produk Kami</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/img1.png" alt="">
+            <h3>Batagor Kuah Mie Original</h3>
+            <div class="price"> <span>Rp.17.000</span> Rp.15.000 </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/img2.png" alt="">
+            <h3>Batagor Kuah Mie Yamin Manis</h3>
+            <div class="price"> <span>Rp.19.000</span> Rp.16.500 </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/img3.png" alt="">
+            <h3>Batagor Kuah Mie Yamin Asin</h3>
+            <div class="price"> <span>Rp.19.000</span> Rp.16.500 </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service -->
+<section class="service" id="service">
+    <h1 class="heading">Layanan Kami</h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-award"></i>
+            <h3>High Quality</h3>
+            <p>Makanan dimasak dan disajikan dengan standar kualitas terkemuka</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Produk diantar secara cepat oleh karir yang terlatih</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 Support</h3>
+            <p>Pelayanan tersedia setiap saat</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h1 class="heading">Kontak Kami</h1>
+    <div class="row">
+        <div class="image">
+            <img src="img/contact-img.jpeg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>Nama Lengkap</h3>
+                <input type="text" placeholder="Masukkan nama Anda..." onkeypress="return onlyLetters(event)">
+            </div>
+            <div class="inputBox">
+                <h3>Email</h3>
+                <input type="email" placeholder="Masukkan email Anda...">
+            </div>
+            <div class="inputBox">
+                <h3>Nomor Kontak</h3>
+                <input type="number" placeholder="Masukkan nomor kontak Anda..." onkeypress="return onlyNumbers(event)">
+            </div>
+            <div class="inputBox">
+                <h3>Pesan</h3>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Masukkan isi pesan Anda..."></textarea>
+            </div>
+            <input type="submit" value="Kirim" class="btn">
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <img src="img/logo.jpg" alt="">
+            <p style="text-transform: lowercase;">Suatu perusahaan lokal yang berdiri sejak Oktober 2019 dengan jenis usaha bergerak dalam industri pangan, berupa makanan siap saji dalam kemasan.</p>
+        </div>
+        <div class="box">
+            <h3>Infoin Kami</h3>
+            <p> <i class="fas fa-phone"></i> +6282115141923 </p>
+            <p style="text-transform: lowercase;"> <i class="fas fa-envelope"></i> susanti.rassa@gmail.com </p>
+            <p> <i class="fas fa-map-marker-alt"></i> Bandung - Jawa Barat, Indonesia </p>
+        </div>
+        <div class="box">
+            <h3>Ikuti Kami</h3>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+    </div>
+    <h1 class="credit">&copy; 2024 | <span>Dapur Rassa</span> | all rights reserved </h1>
+</section>
+
+<!-- Scroll Top Button -->
+<a href="#home" class="fas fa-arrow-up" id="scroll-top"></a>
+
+<!-- Jquery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
